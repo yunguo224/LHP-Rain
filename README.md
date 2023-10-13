@@ -11,7 +11,7 @@ Project website: [[link]](https://yunguo224.github.io/LHP-Rain.github.io/)
 <img src="img/Figure1-examples.png" width="960" alt="demo">
 
 ## Benchmark Download
-We provide full version, simple version and high-level annotations of LHP-Rain. Please refer to [Project website](https://yunguo224.github.io/LHP-Rain.github.io/).
+We provide full version, simple version and high-level annotations of LHP-Rain. The benchmark will be updated in [Project website](https://yunguo224.github.io/LHP-Rain.github.io/).
 
 ## Citation
 If you find this project useful in your research, please consider citing:

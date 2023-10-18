@@ -13,6 +13,25 @@ Paper link: [[arxiv]](https://arxiv.org/abs/2308.03867) [[ICCV]](https://openacc
 ## Benchmark Download
 We provide full version, simple version and high-level annotations of LHP-Rain. The benchmark has been updated in [Project website](https://yunguo224.github.io/LHP-Rain.github.io/).
 
+## Package dependencies
+The project is built with PyTorch 1.9.0, Python3.7, CUDA11.1. For package dependencies, you can install them by:
+```bash
+pip install -r requirements.txt
+```
+
+## Training
+To train SCD-Former, you can begin the training by:
+```bash
+python train/train_derain.py --arch Uformer_B --batch_size 8 --gpu '0,1' --train_ps 256 --train_dir ./train --val_ps 256 --val_dir ./test --env _derain --nepoch 3000 --checkpoint 500 --warmup
+```
+
+## Evaluation
+To evaluate SCD-Former, you can run:
+
+```sh
+python test_derain.py
+```
+
 ## Citation
 If you find this project useful in your research, please consider citing:
 ```

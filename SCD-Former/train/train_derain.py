@@ -10,7 +10,7 @@ print(dir_name)
 import argparse
 import options
 ######### parser ###########
-opt = options.Options().init(argparse.ArgumentParser(description='Image motion deblurring')).parse_args()
+opt = options.Options().init(argparse.ArgumentParser(description='Image deraining')).parse_args()
 print(opt)
 
 import utils

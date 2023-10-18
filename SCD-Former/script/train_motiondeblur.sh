@@ -1,0 +1,1 @@
+python train/train_motiondeblur.py --arch Uformer_B --batch_size 48 --gpu '0,1' --train_ps 128 --train_dir /mnt/data/yeyuntong/Projects/Datasets/WeatherStream/train/ --val_ps 128 --val_dir /mnt/data/yeyuntong/Projects/Datasets/WeatherStream/test/ --env _UG2_challenge --mode deblur --nepoch 9000 --checkpoint 500 --dataset GoPro --warmup --resume

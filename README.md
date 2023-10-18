@@ -47,4 +47,4 @@ If you find this project useful in your research, please consider citing:
 ## Acknowledgement
 The code of SCD-Former is based on [Uformer](https://github.com/ZhendongWang6/Uformer).
 ## Contact
-Please contact us if there is any question or suggestion(Yun Guo guoyun@hust.edu.cn, Yuntong Ye yuntongye@hust.edu.cn, Yi Chang yichang@hust.edu.cn).
+Please contact us if there is any question or suggestion(Yun Guo guoyun@hust.edu.cn, Yi Chang yichang@hust.edu.cn).

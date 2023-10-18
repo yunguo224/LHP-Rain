@@ -14,7 +14,7 @@ opt = options.Options().init(argparse.ArgumentParser(description='Image derainin
 print(opt)
 
 import utils
-from dataset.dataset_motiondeblur import *
+from dataset.dataset_derain import *
 ######### Set GPUs ###########
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ["CUDA_VISIBLE_DEVICES"] = opt.gpu
